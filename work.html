@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="This is the portfolio for Kai Webb, a motion designer based in Atlanta, Georgia">
+
+    <!-- open graph meta tags -->
+    <meta property="og:type" content="portfolio">
+    <meta property="og:title" content="Kai Webb">
+    <meta property="og:description" content="Portfolio for Kai Webb">
+    <meta property="og:image_alt" content="Kai Webb, motion designer">
+    <meta property="og:url" content="PERMALINK">
+    <meta property="og:site_name" content="Kai Webb Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- twitter tags -->
+    <meta name="twitter:title" content="Kai Webb">
+    <meta name="twitter:description" content="Portfolio for Kai Webb, a motion designer based in Atlanta, Georgia">
+    <meta name="twitter:site" content="@USERNAME">
+    <meta name="twitter:creator" content="@USERNAME">
+
+    <link rel="icon" href="img/logo_black_favicon.png">
+    <!-- <link rel="stylesheet" href="vendors/normalize.css"> -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Kai Webb - Work</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="/img/logo_black.png" alt=""></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="nav-list">
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="work-container">
+            <div class="center-container">
+                <a href="work-projects.html" class="clickable-container">
+                        <div class="client-container">
+                            <div class="flex-container hover-info text-fade">
+                                <h2 class="centered-text">Projects</h2>
+                            </div>
+                    </div>
+                </a>
+                <a href="#" onclick="alertFunction()" class="clickable-container"><!-- add href="work-playground.html" when implementing-->
+                    <div class="personal-container">
+                        <div class="flex-container hover-info text-fade">
+                            <h2 class="close">Playground</h2><!-- add class:"centered-text" when implementing-->
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+        function alertFunction(){
+            window.alert("This section is not yet available, come back later.")
+        }
+        function menuToggle() {
+            const toggleMenu = document.querySelector('.toggleMenu')
+            const navigation = document.querySelector('.nav-list')
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>

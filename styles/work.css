@@ -1,0 +1,97 @@
+
+
+
+.work-container{
+    max-height: 110vh;
+    width:100%;
+}
+
+.center-container{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 49%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.hover-info{
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+
+
+
+.text-fade{
+    opacity: 1;
+}
+
+
+.close{
+    text-decoration: line-through;
+    border-radius: 15px;
+    height: 50px;
+    font-family: helvetica-bold;
+    color: var(--main-white-color);
+    padding: 20px;
+    opacity: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #FFFFFF;
+   
+}
+
+
+
+.clickable-container{
+    display: block;
+    text-decoration: none;
+}
+
+
+
+.flex-container{
+    display: flex;
+    width: inherit;
+    height: inherit;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.centered-text {
+border-radius: 15px;
+height: 50px;
+font-family: helvetica-bold;
+color: var(--main-white-color);
+padding: 20px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+color: #FFFFFF;
+}
+
+.centered-text:after {
+content: '';
+position: absolute;
+width: 75%;
+transform: scaleX(0);
+height: 2px;
+bottom: 8px;
+left: 12%;
+background-color: #FFFFFF;
+transform-origin: center;
+transition: transform 0.25s cubic-bezier(0.17,0.84,0.44,1);;
+}
+
+.centered-text:hover:after {
+transform: scaleX(1);
+transform-origin: center;
+}

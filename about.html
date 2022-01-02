@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/About-nav.css" />
+    <link rel="icon" href="img/logo_black_favicon.png">
+    <title>Kai Webb - About Me</title>
+</head>
+
+<body class="about-body">
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="/img/logo_black.png" alt=""></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="nav-list">
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+            <div class="background"></div>
+        </nav>
+    </header>
+    <main>
+        <section class="about-container">
+            <div class="test">
+                <p class="flex-textcontainer">Currently based in <a href="https://www.timeanddate.com/worldclock/usa/atlanta" target="_blank">Atlanta<span class="tooltip">UTC: -05:00</span></a>, I'm a 20 year old motion designer that loves exploring
+                    the limitless world of digital art through Animation. I'm very fascinated in technology
+                    & the different mediums of art, as they've both been an influence throughout my work/identity.
+                    I feel together they are very important to understanding today's world of media.<br><br>
+                    I've always believed it's important to understand the growing world of media & connecting
+                    a message to an audience by creating clean & vibrant work. No matter the size of the task
+                    Whether if it's to help a brand or collaborate on a project with a specific message, Creating
+                    visuals that truly connect is what I love doing. If you're looking to work together, or simply
+                    just have any questions. Please to get in touch.
+                </p>
+                <img class="logo-about" src="img/logo_black.png" rel='placeholder'>
+                </div>
+                <br><br>
+                <ul class="aboutlist">
+                    <li class="listitem">
+                        <h4 class="listitemtitle">Services.</h4>
+                        <ol class="nestlist">
+                            <li class="nestedlistitem">2D Animation</li>
+                            <li class="nestedlistitem">Design</li>
+                            <li class="nestedlistitem">3D</li>
+                            <li class="nestedlistitem">Photography</li>
+                        </ol>
+                    </li>
+                    <!-- <li class="listitem">
+                        <h4 class="listitemtitle">I have worked with/for.</h4>
+                        <ol class="nestlist">
+                            <li class="nestedlistitem">Steamlabs</li>
+                            <li class="nestedlistitem">Synergy</li>
+                            <li class="nestedlistitem"></li>
+                        </ol>
+                    </li> -->
+                </ul>
+
+                <h2 class="contacttext">Contact me:</h2>
+                <a class="contactmail" href="mailto:kaiemail@gmail.com?subject=Client Contact&body=Hi, ..." target="_blank">kairgb00@gmail.com</a>
+                <p id="discord">kai.#0012</p>
+                <ul class="socials">
+                    <li><a href="https://www.twitter.com/kaiumu_"target="_blank"><img src="img/twitterlogo.png" alt="logo" /></a></li>
+                    <li><a onclick="myFunction()" target="_blank" class="discord"><img src="img/discordlogo.png" alt="logo" /></a></li>
+                    <li><a href="https://www.instagram.com/kai.rgb/"target="_blank"><img src="img/instagramlogo.png" alt="logo" /></a></li>
+                    <li><a href="https://www.behance.net/kaiwebb"target="_blank"><img src="img/BEHANCE.png"alt="logo" /></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCfqDpnYPnG-IYdsgt82L1Vw"target="_blank"><img src="img/youtubelogo.png" alt="logo" /></a></li>
+                  </ul>
+                  <a class="contactmail resume" download href="img/Kai_Webb_Resume_copy.pdf" target="_blank">Download my resume!</a>
+        </section>
+    </main>
+    <script>
+        function myFunction(){
+            navigator.clipboard.writeText("kai.#0012").then(function() {
+            window.alert("Copied To Clipboard: kai.#0012")
+            }, function() {
+             window.alert("Something Went Wrong, Try Again.")
+            });
+        }
+
+         function menuToggle() {
+            const toggleMenu = document.querySelector('.toggleMenu')
+            const navigation = document.querySelector('.nav-list')
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

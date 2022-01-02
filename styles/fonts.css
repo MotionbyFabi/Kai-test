@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+    font-family: coco;
+    src: url(/vendors/fonts/Coco-Gothic-Ultralight-trial.ttf) format('truetype'),
+         
+}
+
+@font-face {
+    font-family: helvetica-normal;
+    src: url(/vendors/fonts/Helvetica-font/Helvetica.ttf) format('truetype'),
+         url(/vendors/fonts/Helvetica-font/Helvetica.woff) format('woff');
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url(/vendors/fonts/Helvetica-font/Helvetica-Bold.ttf) format('truetype'),
+         url(/vendors/fonts/Helvetica-font/Helvetica-Bold.woff) format('woff');
+}
+
+@font-face{
+    font-family: bahnschrift;
+    src: url(/vendors/fonts/Bahnschrift/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format('truetype');
+}
+
+.font-normal-helvetica{
+    font-family: helvetica-normal;
+}
+
+.font-bold-helvetica{
+    font-family: helvetica-bold;
+}

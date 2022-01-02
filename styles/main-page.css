@@ -1,0 +1,122 @@
+.home-body{
+    overflow-x: hidden;
+}
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-button-next{
+        margin-right: 310px;
+      }
+      .swiper-button-prev{
+        margin-left: 310px;
+      }
+      .swiper-pagination-bullet-active {
+        color: white;
+        background-color: white;
+      }
+      
+      .swipertext-link{
+        text-decoration: none;
+        margin-bottom: 20px;
+        display: inline-block;
+      }
+      .swiper-slide {
+        text-align: center;
+        
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+.hero-container{
+    
+    height: 100vh;
+
+    text-align: center;
+    overflow-y: hidden;
+    position: relative;
+   
+}
+
+
+
+.about-wrapper{
+    
+    max-width: 100%;
+    height: 40vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+.work-wrapper{
+  height: 100%;
+  background-color: #000000;
+ 
+}
+
+.styleframes-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showreel{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.work-wrapper .View-work-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.View-work-button a:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+

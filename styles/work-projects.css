@@ -1,0 +1,87 @@
+.active{
+  width: 43.75em;
+  max-width: 100%;
+  padding: 20px;
+  height: auto; 
+}
+.static {
+position: absolute;
+background: white;
+width: 43.75em; 
+max-width: 100%;
+height: auto; 
+transition: 0.3s ease-out;
+padding: 20px;
+}
+
+.static:hover {
+opacity: 0;
+transition: 0.3s ease-out;
+}
+
+.gifitem2{
+    margin-top: 20em;
+}
+.gifitem1{
+    margin-top: 0em;
+}
+.gifitem{
+    margin-top: 20em;
+}
+
+.project-view-text{
+    font-size: 25px;
+    color: #343434;
+    font-family: helvetica-bold;
+    margin-left: 20px;
+}
+
+.link {
+color: #343434;
+cursor: pointer;
+font-weight: 400;
+text-decoration: none;
+font-family: bahnschrift;
+margin-left: 20px;
+}
+
+.link--arrowed {
+display: inline-block;
+height: 2rem;
+line-height: 2rem;
+}
+.link--arrowed .arrow-icon {
+position: relative;
+top: -1px;
+transition: transform 0.3s ease;
+vertical-align: middle;
+color: black;
+}
+.link--arrowed .arrow-icon--circle {
+transition: stroke-dashoffset 0.3s ease;
+stroke-dasharray: 95;
+stroke-dashoffset: 95;
+}
+.link--arrowed:hover .arrow-icon {
+transform: translate3d(5px, 0, 0);
+}
+.link--arrowed:hover .arrow-icon--circle {
+stroke-dashoffset: 0;
+}
+#workprojects{
+    overflow-y: visible;
+    
+}
+
+.grid-container{   
+    max-width: 1500px;
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    gap: 20px;
+    height: 100%;
+    padding-bottom: 2em;
+}

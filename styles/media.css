@@ -1,0 +1,811 @@
+@import './global.css';
+
+
+@media (min-height: 800px) {
+    .client-container{
+        height: 22rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 22rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+}
+@media (max-height: 400px){
+    .client-container{
+        height: 10rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 10rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+
+}
+
+@media (max-height: 650px) and (min-height: 400px){
+    .client-container{
+        height: 13rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 13rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+
+}
+@media (max-height: 700px) and (min-height: 650px){
+      .client-container{
+        height: 17rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 17rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+}
+
+
+@media (max-height: 760px) and (min-height: 700px){
+
+      .client-container{
+        height: 17rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 17rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+}
+@media (max-height: 800px) and (min-height: 760px){
+    .client-container{
+        height: 17rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 17rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+   
+}
+
+@media (min-height: 830px){
+    .client-container{
+        height: 25rem;
+        background-color: lavender;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/client.png") center center;
+    }
+    .personal-container{
+        height: 25rem;
+        background-color: hotpink;
+        z-index: -100;
+        text-align: center;
+        background: url("/img/kai-personal.png") center center;
+    }
+  
+}
+
+@media screen and (max-width:1243px) and (min-width:1030px) {
+    main section .gifitem2{
+        margin-top: 0em;
+    }
+    main section .test .logo-about{
+        height: 200px;
+    }
+}
+@media screen and (max-width:1400px){
+    main .main-container .mainsection .color1 .title-text{
+        font-size: 50px;
+
+        max-width: 5ch;
+        font-family: helvetica-bold;
+    }
+}
+@media screen and (max-width:1250px){
+    main .main-container .mainsection .color1 .title-text{
+        font-size: 45px;
+        max-width: 5ch;
+       
+        font-family: helvetica-bold;
+    }
+    main .main-container .mainsection .color1{
+        padding-left: 120px;
+    }
+    main .main-container .arrow{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:1030px){
+    .slide1-container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 86vh;
+        font-size: 15px;
+        padding: 20px;
+        color: #FFFFFF;
+    }
+    main .main-container .mainsection .color1 .subtitle-text {
+        font-weight: 300;
+        font-size: 15px;
+        padding-top: 5px;
+        margin-top: 0px;
+    }
+    
+    
+
+    main .main-section .characteranimation .left-align{
+        padding: 20px;
+    }
+    main .main-section .styleframes .right-align p{
+        padding: 20px;
+        color: blueviolet;
+    }
+    main .main-container .characteranimation .left-align p, h1{
+        text-align: left;
+       
+    }
+    main .main-section .vimeo-embed iframe{
+        max-width: 90%;
+       
+    }
+    .image2-grid div{
+        width: 900px;
+    }
+    .image1-grid div{
+        width: 900px;
+    }
+    .image2-grid div p, h1{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 2em;
+    }
+    .left-align, .left-align p{
+        text-align: right;
+    }
+    .right-align, .right-align p{
+        text-align: left;
+        
+    }
+    .image1-grid div h1{
+        font-size: 2em;
+        padding: 20px;
+    }
+    .image1-grid div h1{
+        font-size: 2em;
+        padding: 20px;
+    }
+    .image1-grid div p, h1{
+       
+        color: #FFFFFF;
+        font-size: 1.6em;
+    }
+    .image2-grid{
+        height: 100%;
+        background-color: black;    
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        
+    }
+    .image1-grid{
+        height: 100%;
+        background-color: black;    
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+        display: none;
+    }
+    main .main-container footer{
+        background-color: black;
+        height: 46vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 40px;
+        
+    }
+    .slider-text{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 500;
+        right: 0;
+        padding: 50px;
+        bottom: -550px;
+        width: max-content;
+      }
+    #workprojects .work-container .grid-container .gifitem2{
+        margin-top: 0em;
+    }
+    #workprojects .work-container .grid-container .gifitem{
+        margin-top: 5em;
+    }
+    main .main-container .characteranimation .textcontainer-characteranimation{
+        text-align: center;
+        max-width: 500px;
+        margin-left: 0em;
+    }
+
+    main .main-container .mainsection{
+        height: fit-content
+    }
+    main .main-container .mainsection .color1{
+        margin-top: 2em;
+        padding-left: 20px;
+        width: 90%;
+        max-width:100%;
+    }
+    main .main-container .mainsection .color3{
+
+        padding: 20px;
+        width:90%;
+        max-width:100%;
+    }
+    main .main-container .mainsection .color2 .middle{
+        height: 3px;
+        width: 70%;
+        left: 50%;
+        background-color: black;
+        
+    }
+    main .main-container .mainsection .color1 .title-text{
+        font-size: 50px;
+
+        max-width: 5ch;
+        font-family: helvetica-bold;
+    }
+    main .main-container .arrow{
+        position: absolute;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 30vh;
+       padding-left: 20px;
+       margin-top: -3em;
+    }
+    
+    main .about-container .logo-about{
+        height: 300px;
+        margin: auto auto;
+        margin-top: 100px;
+        
+    }
+    .test{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main section .gifitem2{
+        margin-top: 0em;
+    }
+    label {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: solid 2px white;
+        border-radius: 999px;
+        background-color: transparent;
+        margin: 90vh 6px 0 6px;
+        z-index: 2;
+        cursor: pointer;
+        transition-duration: .4s;
+      }
+    main .about-container ul {
+        float: right;
+        list-style: none;
+        margin-left: 0px;
+       
+      }
+      main .about-wrapper div .hero-text {
+        margin-left: 20px;
+        padding: 20px;
+        font-size: 40px;
+        font-family: Helvetica-bold;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+        color: black;
+    }
+    
+    header nav{
+        padding:  30px 20px !important;
+        z-index: 1000;
+    }
+    .logo-about{
+        max-height: 300px;
+        float: right;
+        right: 0;
+        margin-top: 0em;
+    }
+    .test{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-top: 3em;
+    }
+   
+    
+    main .about-container .flex-textcontainer{
+        font-size: 1em;
+        line-height: 2em;
+        margin-left: 10px;
+        padding: 20px;
+        max-width: 100%;
+        text-align: left;
+    }
+    main .about-container .contacttext{
+        margin-top: 50px;
+        font-family: bahnschrift;
+        padding-left: 30px;
+        color: black;
+    }
+    main .about-container .contactmail{
+        padding-left: 30px;
+        margin-top: 5px;
+    }
+    .about-container ul {
+    
+        list-style: none;
+        margin-left: 295px;
+        margin-top: 5px;
+      }
+
+    header nav ul.nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:var(--main-background-color);
+        z-index: 100;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    header nav a .logo{
+        max-width: 1.5rem;
+        z-index: 100;
+        margin-left: 0px;
+    } 
+    header nav a .logo:hover{
+        max-width: 1.5rem;
+        z-index: 100;
+        margin-left: 0px;
+        
+    } 
+    .about-container .socials {
+        margin-left: 10px;
+    }
+   
+    header nav ul.nav-list.active{
+        display: flex;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+        flex-wrap: wrap;
+        margin: auto auto;
+        padding: 0;
+    }
+    main .hero-container .swiper .swiper-button-next{
+        margin-right: 20px;
+    }
+    main .hero-container .swiper .swiper-button-prev{
+        margin-left: 20px;
+    }
+    header nav .nav-list{
+        position: relative;
+        display: flex; 
+        padding-right: 0px;
+    }
+    header nav .nav-list li{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav .nav-list li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px !important;
+        
+    }
+    .View-work-button a{
+        display:inline-block;
+        padding:0.35em 1.2em;
+        border:0.1em solid #FFFFFF;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.2em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:bahnschrift;
+        font-size: 15px;
+        font-weight:300;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.2s;
+    }
+    header nav .toggleMenu{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: url(/img/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 1000;  
+    }
+    .home{
+        display: block;
+    }
+
+    .about-container ul li a img {
+        height: 25px;
+        margin: 10px;
+      }
+
+    header nav .toggleMenu.active{
+        position: absolute;
+        right: 15px;
+        background: url(/img/close.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+
+
+    }
+    .h1{
+        text-align: left;
+    }
+    .about-container ul{
+        padding-left: 10px;
+    }
+    .project-view-text{
+        font-size: 2px;
+    }
+    /* Note:  probably move to the main page css */
+    .slider-text {
+        position: absolute;
+        color: white;
+        font-size: 2.2em;
+        z-index: 1000;
+        float: right;
+        right: 0;
+        bottom: 0;
+        padding-right: 35px;
+        padding-bottom: 0px;
+        top: unset;
+        width: unset;
+        text-align: right;
+        /* overflow-wrap: revert; */
+    }
+    a.sipwertext-link {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+      main .main-container .image-grid h2{
+          font-size: 20px;
+      }
+      main .main-container .image-grid img{
+        width: 1200px;
+        max-width: 100%;
+        padding: 20px;
+        height: auto;
+    
+    }
+}
+
+@media screen and (max-width:1840px){
+    .image2-grid{
+        height: 100%;
+        background-color: black;    
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+     
+    }
+    .image1-grid{
+        height: 100%;
+        background-color: black;    
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+        display: none;
+    }
+}
+@media screen and (min-width:1840px){
+    .image2-grid{
+        height: 100%;
+        background-color: black;    
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+      display: none;
+    }
+    .image1-grid{
+        height: 100%;
+        background-color: black;    
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+       
+    }
+}
+@media screen and (min-width:1030px){
+    main .main-container .characteranimation .left-align, .left-align p, h1{
+        text-align: right;
+       
+    }
+    .h1{
+        text-align: right;
+    }
+    main .main-container .image2-grid div p{
+        width: 900px;
+        color: #FFFFFF;
+        padding: 20px;  
+        font-size: 40px;
+        text-align: center; 
+    }
+    main .main-container .image1-grid div p{
+        width: 650px;
+        color: #FFFFFF;
+        padding: 20px;   
+        font-size: 40px;
+        text-align: center; 
+    }
+    
+    .test{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 10em;
+    }
+    .slider-text{
+        position: absolute;
+        color: white;
+        font-size: 50px;
+        display: flex;
+        float: right;
+        font-weight: 500;
+        right: 0;
+        padding-bottom: 70px;
+        padding-right: 35px;
+        bottom: -550px;
+        width: max-content;
+      }
+    .about-container ul {
+    
+        list-style: none;
+        margin-left: 295px;
+        margin-top: -5px;
+      }
+    .home{
+        display: none;
+    }
+    main .about-wrapper div .hero-text {
+        font-size: 40px;
+        font-family: Helvetica-bold;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        color: black;
+    }
+    header nav a .logo{
+        max-width: 1.5rem;
+        z-index: 100;
+        margin-left: 300px;
+    }
+    .View-work-button a{
+        display:inline-block;
+        padding:0.35em 1.2em;
+        border:0.1em solid #FFFFFF;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.12em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:bahnschrift;
+        font-size: 25px;
+        font-weight:300;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.2s;
+    }
+    .slide1-container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 87.5vh;
+        font-size: 50px;
+        padding: 20px;
+        color: #FFFFFF;
+    }
+    .about-container ul li a img {
+        height: 25px;
+        margin: 20px;
+      }
+    header nav{
+        padding:  30px 20px !important;
+        z-index: 1000;
+    }
+    .center-container{
+        transform: translateY(-45.5%) !important;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .hero-container .gif-container{
+        background-image: url(/img/Tablet.gif) !important;
+    }
+}
+@media (max-width: 800px) {
+ main .main-container .vimeo-embed{
+    height: 50vh;
+    overflow-y: hidden;
+}
+
+}
+
+@media (max-width: 480px) {
+    .hero-container .gif-container {
+        background-image: url(/img/Mobile.gif) !important;
+    }
+    main .about-container .flex-textcontainer{
+        font-size: 1em;
+        line-height: 2em;
+        padding-left: 20px;
+        max-width: 100%;
+        text-align: left;
+    }
+    main .main-container .image2-grid div{
+        width: 900px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    main .main-container .image1-grid div{
+        width: 900px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    main .main-container .image2-grid div p, h1{
+       
+        color: #FFFFFF;
+        font-size: 1.6em;
+    }
+    main .main-container .left-align, .left-align p{
+        text-align: right;
+    }
+    main .main-container .right-align, .right-align p{
+        text-align: left;
+        
+    }
+    main .main-container  .image1-grid div h1{
+        font-size: 1.4em;
+        padding: 20px;
+    }
+    main .main-container .image1-grid div h1{
+        font-size: 2em;
+        padding: 20px;
+    }
+    main .main-container .image1-grid div p, h1{
+       
+        color: #FFFFFF;
+        font-size: 1em;
+    }
+    main .main-container .mainsection .color1{
+        padding-left: 20px;
+    }
+    main .main-container .arrowinner{
+        width: 50px;
+        position: relative;
+     }
+    main .about-wrapper div .hero-text {
+        margin-left: 20px;
+        padding: 20px;
+        font-size: 30px;
+        font-family: Helvetica-bold;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+        color: black;
+    }
+  
+    .logo-about{
+        max-height: 200px;
+        float: right;
+        right: 0;
+        margin-top: -10em;
+    }
+   .project-view-text{
+       font-size: 15px;
+   }
+}

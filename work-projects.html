@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="This is the portfolio for Kai Webb, a motion designer based in Atlanta, Georgia">
+
+    <!-- open graph meta tags -->
+    <meta property="og:type" content="portfolio">
+    <meta property="og:title" content="Kai Webb">
+    <meta property="og:description" content="Portfolio for Kai Webb">
+    <meta property="og:image_alt" content="Kai Webb, motion designer">
+    <meta property="og:url" content="PERMALINK">
+    <meta property="og:site_name" content="Kai Webb Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- twitter tags -->
+    <meta name="twitter:title" content="Kai Webb">
+    <meta name="twitter:description" content="Portfolio for Kai Webb, a motion designer based in Atlanta, Georgia">
+    <meta name="twitter:site" content="@USERNAME">
+    <meta name="twitter:creator" content="@USERNAME">
+
+    <link rel="icon" href="img/logo_black_favicon.png">
+    <!-- <link rel="stylesheet" href="vendors/normalize.css"> -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Kai Webb - Projects</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="/img/logo_black.png" alt=""></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="nav-list">
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="workprojects">
+        <section class="work-container">
+            <div class="grid-container">
+                <div class="gifitem">
+                    <img src="/img/client.png" alt="thumb" class="static">
+                    <img src="/img/Desktop.gif" alt="gif" class="active">
+                    <p class="project-view-text">Rooms</p>
+                    <section class="centered-container">
+                        <a class="link link--arrowed" href="case_study_rooms.html">View Project
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <g fill="none" stroke="#2175FF" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                            </g>
+                            </svg>
+                        </a>
+                    </section>
+                </div>
+                <div class="gifitem2">
+                    <img src="img/Website files/VAL SYNERGY/Style frames/Artboard 5.png" alt="thumb" class="static">
+                    <img src="img/Website files/VAL SYNERGY/VAL_SYN_Extra_frames_05.gif" alt="gif" class="active">
+                    <p class="project-view-text">Synergy Valorant</p>
+                    <section class="centered-container">
+                        <a class="link link--arrowed" href="case_study_Synergy.html">View Project
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <g fill="none" stroke="#2175FF" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                            </g>
+                            </svg>
+                        </a>
+                    </section>
+                </div>
+               <!-- <div class="gifitem1">
+                    <img src="/img/client.png" alt="thumb" class="static">
+                    <img src="/img/Desktop.gif" alt="gif" class="active">
+                    <p class="project-view-text">Rooms</p>
+                    <section class="centered-container">
+                        <a class="link link--arrowed" href="case_study_rooms.html">View Project
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <g fill="none" stroke="#2175FF" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                            </g>
+                            </svg>
+                        </a>
+                    </section>
+                </div> -->
+                <!-- <div class="gifitem">
+                    <img src="/img/client.png" alt="thumb" class="static">
+                    <img src="/img/Desktop.gif" alt="gif" class="active">
+                    <p class="project-view-text">Rooms</p>
+                    <section class="centered-container">
+                        <a class="link link--arrowed" href="index.html">View Project
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <g fill="none" stroke="#2175FF" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                            </g>
+                            </svg>
+                        </a>
+                    </section>
+                </div>  -->
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+
+        function menuToggle() {
+            const toggleMenu = document.querySelector('.toggleMenu')
+            const navigation = document.querySelector('.nav-list')
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>

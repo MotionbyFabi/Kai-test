@@ -1,0 +1,148 @@
+
+.about-container {
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+}
+
+
+
+a span.tooltip {
+	
+	position: absolute; 
+	width: 100px;
+	color: #fff; 
+	background: #212121; 
+	padding: 5px;
+	top: -70px;
+	margin-left: -80px;
+	opacity: 0;
+	border-radius: 20px;
+	font-family: bahnschrift;
+	font-size: 0.75em;
+	transition: 0.5s ;
+	text-align: center;
+}
+a {
+	position: relative;
+	color: black;
+	font-family: helvetica-normal;
+	color: #212121;
+	font-size: 1em;
+}
+a:hover span {
+	text-align: center;
+	top: -50px;
+	margin-left: -80px;
+	opacity: 1;
+	transition: 0.5s ;
+}
+
+.flex-textcontainer{
+	text-align: left;
+	font-size: 1.1em;
+	font-family: helvetica-normal;
+	font-weight: 300;
+	color: #212121;
+	line-height: 2em;
+	float: left;
+	max-width: 700px;
+	margin-left: 315px;
+}
+
+.logo-about{
+	height: 300px;
+	float: right;
+	right: 0;
+	margin-right: 315px;
+}
+.contacttext{
+	margin-top: 50px;
+	font-family: bahnschrift;
+	padding-left: 315px;
+	color: black;
+}
+#discord{
+	display: none;
+}
+
+.contactmail:after{
+	content: '';
+	position: absolute;
+	width: 147px;
+	transform: scaleX(0);
+	text-decoration: none;
+	height: 1px;
+	
+	margin-left: 0px;
+	justify-content: center;
+	display: flex;
+	background-color: #000000;
+	transform-origin: left;
+	transition: transform 0.25s cubic-bezier(0.23,1,0.32,1);;
+}
+.contactmail:hover:after {
+	transform: scaleX(1);
+	transform-origin: left;
+	justify-content: center;
+	display: flex;
+	}
+.contactmail{
+	margin-top: 10px;
+	text-decoration: none;
+	color: black;
+	padding-left: 315px;
+}
+.resume{
+	margin-top: -10px;
+	padding-bottom: 20px;
+}
+
+
+.about-container ul li{
+	display: inline-block;
+}
+button img{
+	width: 1.5rem;
+	height: auto;
+
+}
+
+
+.social-list li {
+	list-style: none;
+}
+
+.social-list li a {
+	color: var(--primary-font-color);
+	
+	text-decoration: none;
+	font-size: 1.4rem;
+}
+.aboutlist .listitem{
+	display: block;
+	margin-left: 20px;
+	position: relative;
+	
+}
+ul li ol li{
+	list-style-type: circle;
+	
+}
+.nestlist .nestedlistitem{
+	display: block;
+	
+}
+
+.aboutlist{
+	margin-top: 100px;
+
+}
+
+.discord{
+	cursor: pointer;
+}

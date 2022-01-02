@@ -1,0 +1,33 @@
+header nav{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    
+}
+
+
+header nav .nav-list{
+    position: relative;
+    display: flex; 
+    padding-right: 300px;
+    
+}
+
+header nav .nav-list li{
+    list-style: none;
+    font-size: 18px;
+    font-family: helvetica-bold;
+}
+
+header nav .nav-list li a{
+    color: var(--primary-font-color);
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: helvetica-bold;
+}
