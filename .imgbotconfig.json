@@ -1,0 +1,9 @@
+{
+    "schedule": "daily",
+    
+    "aggressiveCompression": "true", 
+    "compressWiki": "true",
+    "minKBReduced": 500, 
+    "prTitle" : "hello",        
+    "prBody" : "its me"
+}
